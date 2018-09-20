@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+
 .conten-servicios{
     text-align: center;
     width: 100%;
@@ -24,9 +26,79 @@ article h2{
     padding: 20px 0;
 }
 
+.servicio-info{
+    width: 70%;
+    margin: auto;
+    padding: 100px 0;
+}
+
+.servicio-info h4{
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+}
+
+.servicio-servicios{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.servicio-servicios > div{
+    border: 1px solid darkgray;
+    box-shadow: 2px 2px 1px darkgray;
+    width: 30%;
+    background-color: #EAEDED;
+}
+
+.diseño-web h4, .edicion h4, .desarrollo h4{
+    color: #FFF;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px 0;
+    background-color: #1F618D;
+}
+
+.diseño-web div >p, .edicion div >p, .desarrollo div >p{
+    color: #000;
+    padding: 0 20px;
+}
+
+.desarrollo >img{
+    display: block;
+    margin: auto;
+}
+
+.desarrollo > .bottom{
+    padding-top: 127px;
+}
+
+.edicion > .bottom{
+    padding-top: 235px;
+}
+
+.bottom button> a{
+    text-decoration: none;
+    color: white;
+
+}
+
+.bottom{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* padding-top: 50px; */
+    
+}
+
+.bottom {
+    padding: 10px 0;
+}
+
+
 
 @media screen and (max-width:600px){
-    .conten-servicios{
+    .conten-servicios {
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
@@ -36,7 +108,25 @@ article h2{
                 flex-direction: column;
     }
 
+    .servicio-servicios{
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .servicio-servicios > div{
+        width: 100%;
+        margin: 10px 0;
+    }
+
     .conten-servicios div{
         width: 100%;
+    }
+
+    .edicion > .bottom{
+        padding-top: 35px;
+    }
+    .desarrollo > .bottom{
+        padding-top: 35px;
     }
 }
