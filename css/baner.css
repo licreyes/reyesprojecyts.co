@@ -1,0 +1,58 @@
+
+.baner{
+    
+    background: url("../img/code1.png");
+   
+}
+
+
+
+.organizar-baner{
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    /* flex-wrap: wrap; */
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+}
+
+.organizar-baner div{
+    width:45%;
+}
+
+.informacion{
+    margin: auto;
+}
+
+.informacion h1, h6{
+    color: white;
+    text-align: center;
+   
+}
+
+.informacion h1{
+    font-weight: 900;
+}
+
+
+@media screen and (max-width:600px){
+    .organizar-baner{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        padding: 20px 0;
+    }
+
+    .container{
+        width: 100%
+    }
+
+    .imagen-persona{
+        display: none;
+    }
+}

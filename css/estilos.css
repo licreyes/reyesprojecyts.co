@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+@import "header.css";
+@import "baner.css";
+@import "botones.css";
+@import "servicios.css";
+@import "equipo.css";
+@import "herramientas.css";
+@import "contacto.css";
+@import "adicional.css";
+@import "footer.css";
+body{
+    font-family: 'Oswald', sans-serif;   
+}
+
+:rppt
+
+/* .header{
+    background-color: #1F618D;
+    color: white;
+}
+
+.nav-link{
+    color: white;
+}
+
+.nav-link:hover{
+    background-color: #3589C1;
+    color: white;
+    border-radius: 5px;
+}
+.navbar p{
+    color: white;
+    font-size: 32px;
+} */
+
+

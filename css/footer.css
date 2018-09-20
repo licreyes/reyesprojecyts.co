@@ -1,0 +1,45 @@
+footer{
+    background-color: #154360;
+}
+
+.cont-footer{
+    padding: 50px 0;
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-between;
+    /* align-items: center; */
+}
+
+.cont-footer div{
+    color: #fff;
+}
+
+.localizacion p{
+    margin: 0;
+}
+
+.social > h5{
+    text-align: center;
+}
+
+.social >img{
+    text-align: center;
+    margin: 0 12px;
+}
+
+.freelance > h5, p{
+    text-align: center;
+}
+
+@media screen and (max-width:600px){
+    .cont-footer{
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .localizacion, .social, .freelance{
+        width: 100%;
+        padding: 20px 0;
+    }
+}

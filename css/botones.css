@@ -1,0 +1,35 @@
+.adquiere{
+    display: block;
+    padding: 5px 40px;
+    background-color: #f39c12 ;
+    border: 1px solid  #f39c12 ;
+    border-radius: 15px;
+    
+}
+
+.adquiere a{
+    color: white;
+}
+
+.adquiere > a:hover{
+    color: #1F618D;
+    cursor: pointer;
+}
+
+.saber-mas{
+    color: white;
+    text-decoration: none;
+    /* display: block; */
+    padding: 5px 20px;
+    background-color: #f39c12 ;
+    border: 1px solid #f39c12;
+    border-radius: 15px;
+}
+
+
+
+
+
+    
+
+

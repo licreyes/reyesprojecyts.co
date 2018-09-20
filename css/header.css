@@ -1,0 +1,201 @@
+header{
+    background-color: #154360;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    /* box-shadow: 2px 2px 1px darkgray; */
+}
+
+.header{
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.logo{
+    width: 30%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.logo img{
+    padding-right: 10px;
+}
+
+.logo h2{
+    /* color: #DC7633; */
+    color: #fff;
+}
+
+
+.navar-lista > li{
+    list-style: none;
+    display: inline-block;
+    padding: 0 4px;
+    /* text-align: center; */
+    /* margin: auto; */
+
+}
+
+.servicios {
+    z-index: auto;
+    list-style: none;
+    position: absolute;
+    background-color: #154360;
+    /* box-shadow: 0px 2px 1px darkgray; */
+    transform: translateY(-60%);
+    transition: all .6s;
+    opacity: 0;
+    /* display: none; */
+
+}
+
+.servicios li{
+  display: block;
+  padding-left: 10px;
+  padding-right: 10px;
+
+}
+
+.servicios li > i{
+  padding-right: 8px;
+  color: white;
+}
+
+.servicios li:hover {
+  background-color: #DC7633;
+  transition-duration: 0.5s;
+}
+
+
+.servicios li >a{
+  color: white;
+  text-decoration: none;
+}
+
+.navar-lista li:hover > .servicios{
+  opacity: 1;
+  /* display: block; */
+  transform: translateY(0%);
+}
+
+
+.navar-lista > li > a{
+    /* color: #DC7633; */
+    color: #fff;3
+    text-decoration: none;
+    display: inline-block;
+    padding: 5px 5px;
+    display: block;
+}
+
+.navar-lista > li > a:hover{
+    background-color: chocolate;
+    transition-duration: 0.5s;
+    border-radius: 15px;
+    color: #fff;
+    text-decoration: none;
+
+}
+
+.taggle{
+    width: 50%;
+    text-align: left;
+    box-shadow: border-box;
+    color: aliceblue;
+    font-size: 30px;
+    display: none;
+}
+
+@media screen and (max-width:999px){
+    .header{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .header div{
+        width: 100%;
+    }
+
+    nav{
+        width: 100%;
+    }
+
+    .container{
+        width: 100%;
+    }
+
+    .logo{
+        justify-content: center;
+        text-align: center;
+    }
+
+
+    .logo img{
+        display: none;
+    }
+
+    .navbar-brand h1{
+        text-align: center;
+    }
+
+    .taggle{
+        display: block;
+        position: absolute;
+    }
+
+    .servicios{
+      background-color: #154360;
+      box-shadow: none;
+      margin: auto;
+      text-align: center;
+      width: 90%;
+      display: none;
+    }
+    .navar-lista li:hover > .servicios{
+      display: block;
+      position: relative;
+      transition: all .9s;
+    }
+
+    .servicios li{
+      border-radius: 15px;
+      display: block;
+      /* padding: 5px 10px; */
+
+    }
+
+    .servicios li > i{
+      /* padding-right: 8px; */
+      /* color: white; */
+    }
+
+    .navar-lista li{
+        display: block;
+        text-align: center;
+        margin: auto;
+        padding: 5px 0;
+    }
+
+    .navar-lista{
+        width: 100%;
+    }
+
+    .navar-lista li >a{
+        width: 100%;
+        border-radius: 15px;
+    }
+
+    .navar-lista{
+        display: none;
+    }
+
+    .active{
+        display: block;
+        transition-duration: 0.5s;
+    }
+
+
+}

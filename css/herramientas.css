@@ -1,0 +1,37 @@
+.herramientas{
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: space-around; 
+}
+
+
+.herramientas div{
+    width: 20%;
+    
+}
+
+.herramientas div > div{
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    color: #1F618D;
+    padding: 15px 0;
+}
+
+@media screen and (max-width:600px){
+    .herramientas{
+        display: flex;
+        flex-direction: column;
+        padding: 8px 0;
+    }
+
+    .herramientas div{
+        width: 100%;
+    }
+
+    .container{
+        width: 100%;
+    }
+}
