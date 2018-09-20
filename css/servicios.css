@@ -38,14 +38,18 @@ article h2{
 }
 
 .servicio-servicios{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-around;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
     width: 100%;
 }
 
 .servicio-servicios > div{
     border: 1px solid darkgray;
-    box-shadow: 2px 2px 1px darkgray;
+    -webkit-box-shadow: 2px 2px 1px darkgray;
+            box-shadow: 2px 2px 1px darkgray;
     width: 30%;
     background-color: #EAEDED;
 }
@@ -84,9 +88,14 @@ article h2{
 
 .bottom{
     width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     /* padding-top: 50px; */
     
 }
@@ -109,8 +118,13 @@ article h2{
     }
 
     .servicio-servicios{
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        flex-direction: column;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
 
     }
 
