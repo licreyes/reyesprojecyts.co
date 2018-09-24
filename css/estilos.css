@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Oswald');
+@import "texto.css";
 @import "header.css";
 @import "baner.css";
 @import "botones.css";
@@ -8,11 +8,12 @@
 @import "contacto.css";
 @import "adicional.css";
 @import "footer.css";
+@import "somos.css";
 body{
-    font-family: 'Oswald', sans-serif;   
+    font-family: var(--body);
 }
 
-:rppt
+
 
 /* .header{
     background-color: #1F618D;

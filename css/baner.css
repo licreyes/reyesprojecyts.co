@@ -25,7 +25,7 @@
     margin: auto;
 }
 
-.informacion h1, h6{
+.informacion, h1 > h6{
     color: white;
     text-align: center;
    

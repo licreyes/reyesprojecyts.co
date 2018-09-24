@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Sacramento');
+
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+:root{
+    --firma: 'Sacramento', cursive;
+
+    --body: 'Oswald', sans-serif;
+
+}
