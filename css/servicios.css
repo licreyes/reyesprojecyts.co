@@ -48,10 +48,53 @@ article h2{
 
 .servicio-servicios > div{
     border: 1px solid darkgray;
-    -webkit-box-shadow: 2px 2px 1px darkgray;
-            box-shadow: 2px 2px 1px darkgray;
+    -webkit-box-shadow: 0px 2px 1px darkgray;
+            box-shadow: 0px 2px 1px darkgray;
     width: 30%;
     background-color: #EAEDED;
+}
+
+.diseño-web:hover{
+    transform: scale(1.05);
+    transition-duration: 0.5s;
+}
+.edicion:hover{
+    transform: scale(1.05);
+    transition-duration: 0.5s;
+}
+.desarrollo:hover{
+    transform: scale(1.05);
+    transition-duration: 0.5s;;
+}
+
+.diseño-web > i{
+    padding-top: 12px;
+    display: block;
+    background-color: #1F618D;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    font-size: 50px;
+}
+
+.edicion  > i{
+    padding-top: 12px;
+    display: block;
+    background-color: #1F618D;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    font-size: 50px;
+}
+
+.desarrollo  > i{
+    padding-top: 12px;
+    display: block;
+    background-color: #1F618D;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    font-size: 50px;
 }
 
 .diseño-web h4, .edicion h4, .desarrollo h4{
