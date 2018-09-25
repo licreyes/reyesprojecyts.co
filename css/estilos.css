@@ -9,6 +9,7 @@
 @import "adicional.css";
 @import "footer.css";
 @import "somos.css";
+@import "desarrollo_web.css";
 body{
     font-family: var(--body);
 }
