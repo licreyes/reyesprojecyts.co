@@ -22,7 +22,7 @@ footer{
     text-align: center;
 }
 
-.social >img{
+.social a >img{
     text-align: center;
     margin: 0 12px;
 }
