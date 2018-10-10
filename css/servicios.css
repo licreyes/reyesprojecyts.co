@@ -67,7 +67,7 @@ article h2{
     transition-duration: 0.5s;;
 }
 
-.diseño-web > i{
+.diseño-web>i,.edicion>i,.desarrollo>i{
     padding-top: 12px;
     display: block;
     background-color: #1F618D;
@@ -77,7 +77,7 @@ article h2{
     font-size: 50px;
 }
 
-.edicion  > i{
+/* .edicion  > i{
     padding-top: 12px;
     display: block;
     background-color: #1F618D;
@@ -95,10 +95,11 @@ article h2{
     text-align: center;
     color: #fff;
     font-size: 50px;
-}
+} */
 
 .diseño-web h4, .edicion h4, .desarrollo h4{
     color: #FFF;
+    letter-spacing: 3px;
     font-weight: bold;
     text-align: center;
     padding: 20px 0;
@@ -106,8 +107,11 @@ article h2{
 }
 
 .diseño-web div >p, .edicion div >p, .desarrollo div >p{
-    color: #000;
-    padding: 0 20px;
+    font-weight: 300;
+    letter-spacing: 1px;
+   
+    /* padding-bottom: 30px; */
+    padding-left: 20px;
 }
 
 .desarrollo >img{
