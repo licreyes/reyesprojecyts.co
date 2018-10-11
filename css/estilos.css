@@ -10,6 +10,7 @@
 @import "footer.css";
 @import "somos.css";
 @import "desarrollo_web.css";
+@import "edicion.css";
 body{
     font-family: var(--body);
 }
