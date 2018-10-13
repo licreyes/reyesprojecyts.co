@@ -19,7 +19,7 @@ article h2{
 
 .conten-servicios > div{
     padding: 20px 0;
-    width:30%;
+    width: 35%;
 }
 
 .conten-servicios div > div{
@@ -67,10 +67,29 @@ article h2{
     transition-duration: 0.5s;;
 }
 
-.diseño-web>i,.edicion>i,.desarrollo>i{
+.diseño-web,.edicion,.desarrollo{
+    border-radius: 5px;
+    border-radius: 5px;
+}
+
+.diseño-web>i,.desarrollo>i{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
     padding-top: 12px;
     display: block;
-    background-color: #1F618D;
+    background-color: #FF8000;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    font-size: 50px;
+}
+
+.edicion>i{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding-top: 12px;
+    display: block;
+    background-color: #FFC300;
     width: 100%;
     text-align: center;
     color: #fff;
@@ -97,24 +116,34 @@ article h2{
     font-size: 50px;
 } */
 
-.diseño-web h4, .edicion h4, .desarrollo h4{
+.diseño-web h4,  .desarrollo h4{
     color: #FFF;
     letter-spacing: 3px;
     font-weight: bold;
     text-align: center;
     padding: 20px 0;
-    background-color: #1F618D;
+    background-color: #FF8000;
+}
+
+.edicion h4{
+    color: #FFF;
+    letter-spacing: 3px;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px 0;
+    background-color: #FFC300;
 }
 
 .diseño-web div >p, .edicion div >p, .desarrollo div >p{
     font-weight: 300;
     letter-spacing: 1px;
-   
-    /* padding-bottom: 30px; */
+    padding-bottom: 10px;
+    padding-top: 10px;
     padding-left: 20px;
+    margin: 12px; 
 }
 
-.desarrollo >img{
+/* .desarrollo >img{
     display: block;
     margin: auto;
 }
@@ -124,8 +153,8 @@ article h2{
 }
 
 .edicion > .bottom{
-    padding-top: 235px;
-}
+    padding-top: 235px; */
+
 
 .bottom button> a{
     text-decoration: none;
