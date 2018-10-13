@@ -1,5 +1,4 @@
 <?php
-
 $destino="reyesprojects.service@gmail.com";
 $nombre= $_POST["nombre"];
 $corroe= $_POST["corroe"];

@@ -1,0 +1,49 @@
+.plan-basico{
+    
+}
+
+.basico, .medio,.premiun{
+    border-radius: 5px;
+    border-radius: 5px;
+}
+
+.basico h4, .medio h4, .premiun h4{
+    color: #FFF;
+    letter-spacing: 3px;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px 0;
+    background-color: #1F618D;
+}
+
+.basico > i, .medio>i,.premiun>i{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding-top: 12px;
+    display: block;
+    background-color: #1F618D;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    font-size: 50px;
+}
+.plan-basico>p, .plan-medio>p, .plan-premiun>p{
+    margin: 12px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    /* background-color: blue; */
+}
+
+
+.diseño-web:hover{
+    transform: scale(1.05);
+    transition-duration: 0.5s;
+}
+.edicion:hover{
+    transform: scale(1.05);
+    transition-duration: 0.5s;
+}
+.desarrollo:hover{
+    transform: scale(1.05);
+    transition-duration: 0.5s;;
+}
