@@ -1,8 +1,9 @@
 .edicion-conten{
-    color: red;
-    /* background: url("../img/code1.png"); */
+    color: white;
     background: url("../img/Mesa_de_edicion.png") no-repeat;
-    width: 100%;
     /* background: no-repeat; */
-    /* background-size: 100% 100%; */
+    background-size: 100% 100%;
+    padding-top: 54px;
+    padding-bottom: 54px;
+
 }
