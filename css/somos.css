@@ -1,3 +1,30 @@
+.corporativo{
+    width: 100%;
+    display: flex;
+    
+}
+.mision, .vision{
+    width: 50%;
+    height: 350px;
+    background: url("../img/code1.png");
+    /* background: #F2BA83; */
+    font-weight: 300;
+    color: #FFF;
+    margin-bottom: 20px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.mision div, .vision div{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    /* background: red; */
+}
+
 .personas .persona{
     margin: auto;
     margin-bottom: 24px;
@@ -5,6 +32,8 @@
     border: 1px solid #ccc;
     
 }
+
+
 
 .persona{
     background: -webkit-gradient(linear,  left top, left bottom,  from(#F2BA83), to(#FF8000));
@@ -67,6 +96,14 @@
 }
 
 @media screen and (max-width:640px){
+    .corporativo{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .mision, .vision{
+        width: 100%;
+    }
     .persona{
         width: 100%;
         margin: auto;
