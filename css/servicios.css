@@ -69,7 +69,6 @@ article h2{
 
 .diseño-web,.edicion,.desarrollo{
     border-radius: 5px;
-    border-radius: 5px;
 }
 
 .diseño-web>i,.desarrollo>i{
@@ -96,25 +95,13 @@ article h2{
     font-size: 50px;
 }
 
-/* .edicion  > i{
-    padding-top: 12px;
-    display: block;
-    background-color: #1F618D;
-    width: 100%;
-    text-align: center;
-    color: #fff;
-    font-size: 50px;
+.edicion{
+    height: 550px;
 }
 
-.desarrollo  > i{
-    padding-top: 12px;
-    display: block;
-    background-color: #1F618D;
-    width: 100%;
-    text-align: center;
-    color: #fff;
-    font-size: 50px;
-} */
+.desarrollo{
+    height: 480px;
+}
 
 .diseño-web h4,  .desarrollo h4{
     color: #FFF;
@@ -143,17 +130,7 @@ article h2{
     margin: 12px; 
 }
 
-/* .desarrollo >img{
-    display: block;
-    margin: auto;
-}
 
-.desarrollo > .bottom{
-    padding-top: 127px;
-}
-
-.edicion > .bottom{
-    padding-top: 235px; */
 
 
 .bottom button> a{
